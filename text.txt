@@ -1,0 +1,14 @@
+pyinstaller.exe --onefile --hidden-import babel.numbers --icon=mfm_logo.ico app.py
+pyinstaller.exe --onefile --windowed --hidden-import babel.numbers --icon=../mfm_logo.ico ../app.py
+pyinstaller.exe --onefile --windowed --hidden-import babel.numbers --icon=../app_icon.ico ../app.py
+
+
+
+
+## this is ensure that there is no console in the application.
+pyinstaller.exe --onefile --noconsole --hidden-import babel.numbers --icon=../mfm_logo.ico ../app.py
+
+
+
+
+TKinterModernThemes
