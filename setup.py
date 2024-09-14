@@ -14,9 +14,9 @@ base = "Win32GUI" if sys.platform == "win32" else None
 executables = [Executable("app.py", base=base)]
 
 setup(
-    name="MFMGuestHouse",
+    name="GuestHouse",
     version="1.0",
-    description="MFM Guest House Application",
+    description=" Guest House Application",
     executables=executables,
     options={
         "build_exe": {
